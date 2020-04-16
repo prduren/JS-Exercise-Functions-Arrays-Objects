@@ -149,10 +149,11 @@ getName();
  * passing in [ 'orange', 'grape', 'apple', 'banana', 'mango' ] as the argument,
  * the returned value should be: 2.
  */
-function appleIndex(/* code here */) {
-  /* code here */
+function appleIndex([]) {
+  return ["grape", "apple"].indexOf("apple");
 }
 
+appleIndex();
 /**
  * ### Challenge `isItAnApple`
  *
