@@ -100,9 +100,16 @@ temperatureInF(40, "C");
  *   email: "leia@leia.com",
  * }
  */
-function makePersonObject(/* code here */) {
-  /* code here */
+function makePersonObject(id, name, email) {
+  const obj = {
+    id: id,
+    name: name,
+    email: email,
+  };
+  return obj;
 }
+
+makePersonObject();
 
 /**
  * ### Challenge `getName`
